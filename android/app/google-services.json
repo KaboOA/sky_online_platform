@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "326923139164",
+    "firebase_url": "https://test-83a42-default-rtdb.firebaseio.com",
+    "project_id": "test-83a42",
+    "storage_bucket": "test-83a42.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:326923139164:android:ee6b8b7f2113d4582e4e99",
+        "android_client_info": {
+          "package_name": "com.codiaeumtech.sky_online_platform"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8kNv0yUOr_h9sjiYH-AvIHp9GQL1WRxs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

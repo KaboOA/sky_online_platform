@@ -1,0 +1,13 @@
+{
+    "is_req": "اجباري",
+    "enter_your_code": "أدخل كودك",
+    "enter_your_phone_num": "أدخل رقم هاتفك",
+    "enter_your_password": "أدخل كلمة المرور",
+    "login": "تسجيل الدخول",
+    "code": "الكود",
+    "loading": "يرجي الانتظار",
+    "forget_pass": "نسيت كلمة مرورك؟",
+    "register": "سجل",
+    "donot_have_acc": "ليس لديك حساب؟",
+    "password": "كلمة المرور"
+}

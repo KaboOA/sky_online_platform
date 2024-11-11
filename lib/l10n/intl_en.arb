@@ -1,0 +1,13 @@
+{
+    "is_req": "is Required",
+    "enter_your_code": "Enter Your Code",
+    "enter_your_phone_num": "Enter Your Phone Number",
+    "password": "Password",
+    "enter_your_password": "Enter Your Password",
+    "login": "Login",
+    "loading": "Loading",
+    "forget_pass": "Forget your password?",
+    "register": "Register",
+    "donot_have_acc": "Don`t have an account?",
+    "code": "Code"
+}
