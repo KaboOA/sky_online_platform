@@ -248,44 +248,30 @@ class _SkyPlatformIntroState extends State<SkyPlatformIntro> {
             body: Stack(
               children: [
                 // Background clouds
-
                 // red cloud
                 Positioned(
                   left: 0,
-                  top: 10 +
-                      (_pageOffset *
-                          (MediaQuery.sizeOf(context).height /
-                              (_screens.length + 1))), // (screens length + 1)
-
+                  top: MediaQuery.sizeOf(context).height / 1.5,
                   child: Opacity(
                     opacity: 0.5,
-                    child: Image.asset(Constants.redCloud, width: 150),
+                    child: Image.asset(Constants.redCloud, width: 180),
                   ),
                 ),
 
                 // blue cloud
                 Positioned(
                   right: 0,
-                  top: 50 +
-                      (_pageOffset *
-                          (MediaQuery.sizeOf(context).height /
-                              (_screens.length +
-                                  1))), // Adjust to move clouds down per page
-
+                  top: MediaQuery.sizeOf(context).height / 1.4,
                   child: Opacity(
                     opacity: 0.5,
-                    child: Image.asset(Constants.blueCloud, width: 150),
+                    child: Image.asset(Constants.blueCloud, width: 180),
                   ),
                 ),
 
                 // stars
                 Positioned(
                   right: 20,
-                  top: 10 +
-                      (_pageOffset *
-                          (MediaQuery.sizeOf(context).height /
-                              (_screens.length + 1))), // (screens length + 1)
-
+                  top: MediaQuery.sizeOf(context).height / 1.55,
                   child: Image.asset(
                       cubit.isDarkMode
                           ? Constants.starDark
@@ -294,11 +280,7 @@ class _SkyPlatformIntroState extends State<SkyPlatformIntro> {
                 ),
                 Positioned(
                   right: 40,
-                  top: 30 +
-                      (_pageOffset *
-                          (MediaQuery.sizeOf(context).height /
-                              (_screens.length + 1))), // (screens length + 1)
-
+                  top: (MediaQuery.sizeOf(context).height / 1.55) + 20,
                   child: Image.asset(
                       cubit.isDarkMode
                           ? Constants.starDark
@@ -307,12 +289,7 @@ class _SkyPlatformIntroState extends State<SkyPlatformIntro> {
                 ),
                 Positioned(
                   left: 20,
-                  top: 120 +
-                      (_pageOffset *
-                          (MediaQuery.sizeOf(context).height /
-                              (_screens.length +
-                                  1))), // Adjust to move clouds down per page
-
+                  top: MediaQuery.sizeOf(context).height / 1.2,
                   child: Image.asset(
                       cubit.isDarkMode
                           ? Constants.starDark
@@ -321,12 +298,7 @@ class _SkyPlatformIntroState extends State<SkyPlatformIntro> {
                 ),
                 Positioned(
                   left: 40,
-                  top: 140 +
-                      (_pageOffset *
-                          (MediaQuery.sizeOf(context).height /
-                              (_screens.length +
-                                  1))), // Adjust to move clouds down per page
-
+                  top: (MediaQuery.sizeOf(context).height / 1.2) + 20,
                   child: Image.asset(
                       cubit.isDarkMode
                           ? Constants.starDark
@@ -418,3 +390,91 @@ class _SkyPlatformIntroState extends State<SkyPlatformIntro> {
     });
   }
 }
+
+
+/*
+                // red cloud
+                Positioned(
+                  left: 0,
+                  top: 10 +
+                      (_pageOffset *
+                          (MediaQuery.sizeOf(context).height /
+                              (_screens.length + 1))), // (screens length + 1)
+
+                  child: Opacity(
+                    opacity: 0.5,
+                    child: Image.asset(Constants.redCloud, width: 150),
+                  ),
+                ),
+
+                // blue cloud
+                Positioned(
+                  right: 0,
+                  top: 50 +
+                      (_pageOffset *
+                          (MediaQuery.sizeOf(context).height /
+                              (_screens.length +
+                                  1))), // Adjust to move clouds down per page
+
+                  child: Opacity(
+                    opacity: 0.5,
+                    child: Image.asset(Constants.blueCloud, width: 150),
+                  ),
+                ),
+
+                // stars
+                Positioned(
+                  right: 20,
+                  top: 10 +
+                      (_pageOffset *
+                          (MediaQuery.sizeOf(context).height /
+                              (_screens.length + 1))), // (screens length + 1)
+
+                  child: Image.asset(
+                      cubit.isDarkMode
+                          ? Constants.starDark
+                          : Constants.starLight,
+                      width: 20),
+                ),
+                Positioned(
+                  right: 40,
+                  top: 30 +
+                      (_pageOffset *
+                          (MediaQuery.sizeOf(context).height /
+                              (_screens.length + 1))), // (screens length + 1)
+
+                  child: Image.asset(
+                      cubit.isDarkMode
+                          ? Constants.starDark
+                          : Constants.starLight,
+                      width: 15),
+                ),
+                Positioned(
+                  left: 20,
+                  top: 120 +
+                      (_pageOffset *
+                          (MediaQuery.sizeOf(context).height /
+                              (_screens.length +
+                                  1))), // Adjust to move clouds down per page
+
+                  child: Image.asset(
+                      cubit.isDarkMode
+                          ? Constants.starDark
+                          : Constants.starLight,
+                      width: 20),
+                ),
+                Positioned(
+                  left: 40,
+                  top: 140 +
+                      (_pageOffset *
+                          (MediaQuery.sizeOf(context).height /
+                              (_screens.length +
+                                  1))), // Adjust to move clouds down per page
+
+                  child: Image.asset(
+                      cubit.isDarkMode
+                          ? Constants.starDark
+                          : Constants.starLight,
+                      width: 15),
+                ),
+*/
